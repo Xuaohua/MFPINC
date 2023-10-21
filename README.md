@@ -9,3 +9,9 @@ MFPINC是开源的工具，欢迎社会各界的补充和建议。</br>
 </br>
 OTSO适用于Windows、Linux，但由于部分特征提取需要再Linux环境中进行，因此我们更推荐用户使用Linux系统使用我们的工具。下面是各种设备中安装MFPINC的说明。</br>
 </br>
+
+# Installation
+In order for MFPINC to be installed and operate correctly, one must have a python installed. 
+
+# Linux
+
