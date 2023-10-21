@@ -15,5 +15,6 @@ In order for MFPINC to be installed and operate correctly, one must have a pytho
 
 # Linux
 下面概述了在Linux系统中安装MFPINC的最简单方法。我们提供了在线教程以及下面每个步骤的简单摘要。注意MFPINC在Ununtu操作系统上进行测试。以下说明将用于在此操作系统上安装MFPINC。使用不同的Linux操作系统可能会改变安装过程。
-  ### 1.将MFPINC安装到您的Linux系统上，请遵循这些说明，总结如下：
-    * 打开终端
+
+  1.将MFPINC安装到您的Linux系统上，请遵循这些说明，总结如下：  
+    - 打开终端
