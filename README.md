@@ -14,7 +14,9 @@ MFPINC is suitable for Windows and Linux, but since some feature extraction need
 * Mengqing Gao - GaoMengqing@stu.ahau.edu.cn;</br>
 * Corresponding author. Xiaodan Zhang - zxd@ahau.edu.cn
 
-# Installation
+# Usage steps
+
+## Installation
 
 Before to start, it is necessary to install txCdsPredict.</br>
 
@@ -53,3 +55,10 @@ ATGATAACCACCTGGGTTTCGCAGCTGGAGCTTGAGCAGAAAGCCAAAACTCTGCATGAAGATATAATAAAGCATTGGAT
 * Pandas 1.2.4 (or a compatible version) 
 * Scikit-learn 1.1.1 (or a compatible version)
 
+### General Instructions for Conducting the CircPCBL Tool 
+
+1. Prepare datasets (fasta file) 
+
+2. Invoke CircPCBL with CMD 
+
+3. Done! 
