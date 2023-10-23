@@ -20,7 +20,7 @@ Before to start, it is necessary to install txCdsPredict.</br>
 
 txCdsPredict:the precompiled binary is included in the package. Here is the link to download the source code:</br>
 
-https://github.com/ENCODE-DCC/kentUtils</br> 
+https://github.com/Zhenj-Nie/MFPINC/tree/master/kentUtils-master</br> 
 
 All to install: https://github.com/TatianneNegri/RNAplonc/blob/master/Install.md
 
