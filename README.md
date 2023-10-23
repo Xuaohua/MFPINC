@@ -24,8 +24,6 @@ txCdsPredict:the precompiled binary is included in the package. Here is the link
 
 https://github.com/Zhenj-Nie/MFPINC/tree/master/kentUtils-master</br> 
 
-All to install: https://github.com/TatianneNegri/RNAplonc/blob/master/Install.md
-
 ## txCdsPredict
 * Please follow these steps before utilizing MFPINC:
 1. `Installation of files`: Download the txCdsPredict folder in the CentOS7 system.
