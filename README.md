@@ -24,8 +24,8 @@ https://github.com/ENCODE-DCC/kentUtils</br>
 
 All to install: https://github.com/TatianneNegri/RNAplonc/blob/master/Install.md
 
-## Guide
-* Please review the following tools before utilizing CircPCBL:
+## txCdsPredict
+* Please follow these steps before utilizing MFPINC:
 1. `Installation of files`: Download the txCdsPredict folder in the CentOS7 system.
    
 2. `Input of sequence`: Create a. fasta file and input the gene sequence you want to identify and identify, such as：
@@ -41,11 +41,15 @@ ATGATAACCACCTGGGTTTCGCAGCTGGAGCTTGAGCAGAAAGCCAAAACTCTGCATGAAGATATAATAAAGCATTGGAT
     result.fasta = Name of the gene sequence from step 2
    
     result.cds = Output file name
-   
-5. `LGC for long non-coding RNAs`: 
-6. `tRNA-scan`: 
 
-* Check the coding capacity of the sequences, please use `1-3` 
-* Confirm whether the sequences are tRNAs or not, please use `4` 
+**Once you have obtained the cds feature files using the txCdsPredict tool, our model will help further determine whether they are ncRNAs.**  
 
-**Once you have verified that your test sequences are lncRNAs but not mRNAs or sncRNAs along with the above tools, our model will be of assistance in further determining whether they are circRNAs.**  
+## MFPINC
+
+### Required Packages
+* Python 3.9.0 (or a compatible version) 
+* Pytorch 1.13.0 (or a compatible version) 
+* NumPy 1.23.3 (or a compatible version) 
+* Pandas 1.2.4 (or a compatible version) 
+* Scikit-learn 1.1.1 (or a compatible version)
+
