@@ -55,10 +55,12 @@ ATGATAACCACCTGGGTTTCGCAGCTGGAGCTTGAGCAGAAAGCCAAAACTCTGCATGAAGATATAATAAAGCATTGGAT
 * Pandas 1.2.4 (or a compatible version) 
 * Scikit-learn 1.1.1 (or a compatible version)
 
-### General Instructions for Conducting the CircPCBL Tool 
+### General Instructions for Conducting the MFPINC Tool 
 
 1. Prepare datasets (fasta file) 
 
-2. Invoke CircPCBL with CMD 
+2. Modify the file path in the code
 
-3. Done! 
+3. Run
+
+4. Done！
