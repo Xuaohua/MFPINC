@@ -10,14 +10,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, f1_score, auc, matthews_corrcoef, precision_score, recall_score, confusion_matrix, roc_curve,roc_auc_score
-import joblib
+import random
+
 %config Warning.simplerfilter = True
 
 # device =torch.device("cuda:0"if torch.cuda.is_available() else "cpu")
 # device = torch.device('cuda:0')
 device = torch.device('cpu')
 
-import random
 seed_value = 42
 
 torch.manual_seed(seed_value)
@@ -167,7 +167,6 @@ def gc_content(dna_sequence):
         gc_percent.append(gc_percent_eve)
     return gc_percent
 
-# gc_precent = gc_content(data.iloc[:,0])
 gc_precent = gc_content(data.seq)
 gc_precent_pd = pd.DataFrame(gc_precent)
 gc_precent_pd.rename(columns={0: 'GC content'}, inplace=True)
